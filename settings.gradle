@@ -1,0 +1,2 @@
+rootProject.name='InheritanceRPG3'
+include ':app'

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/factory_one_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/factory_two_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/monster_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="396dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/monster_button_dark"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="396dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_dark" />
+
+    <TextView
+        android:id="@+id/monster_button_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="396dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="MONSTER"
+        android:textColor="#FFA200"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/monster_button_inv"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="396dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/hero_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="396dp"
+        app:layout_constraintBottom_toTopOf="@+id/monster_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/hero_button_dark"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="396dp"
+        app:layout_constraintBottom_toTopOf="@+id/monster_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_dark" />
+
+    <TextView
+        android:id="@+id/hero_button_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="396dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="HERO"
+        android:textColor="#FFA200"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/monster_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hero_button_inv"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="396dp"
+        app:layout_constraintBottom_toTopOf="@+id/monster_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/gate_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/monitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

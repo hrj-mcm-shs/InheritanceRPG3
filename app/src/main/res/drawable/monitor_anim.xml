@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/monitor1" android:duration="200" />
+    <item android:drawable="@drawable/monitor2" android:duration="150" />
+    <item android:drawable="@drawable/monitor3" android:duration="150" />
+    <item android:drawable="@drawable/monitor4" android:duration="150" />
+    <item android:drawable="@drawable/monitor5" android:duration="150" />
+    <item android:drawable="@drawable/monitor6" android:duration="150" />
+    <item android:drawable="@drawable/monitor7" android:duration="150" />
+    <item android:drawable="@drawable/monitor8" android:duration="150" />
+    <item android:drawable="@drawable/monitor9" android:duration="150" />
+    <item android:drawable="@drawable/monitor10" android:duration="150" />
+    <item android:drawable="@drawable/monitor11" android:duration="200" />
+
+</animation-list>

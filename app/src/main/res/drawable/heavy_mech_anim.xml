@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/hm1" android:duration="100" />
+    <item android:drawable="@drawable/hm2" android:duration="100" />
+    <item android:drawable="@drawable/hm3" android:duration="100" />
+    <item android:drawable="@drawable/hm4" android:duration="100" />
+    <item android:drawable="@drawable/hm5" android:duration="100" />
+    <item android:drawable="@drawable/hm6" android:duration="100" />
+    <item android:drawable="@drawable/hm7" android:duration="100" />
+    <item android:drawable="@drawable/hm8" android:duration="100" />
+    <item android:drawable="@drawable/hm9" android:duration="100" />
+    <item android:drawable="@drawable/hm10" android:duration="100" />
+    <item android:drawable="@drawable/hm11" android:duration="100" />
+    <item android:drawable="@drawable/hm12" android:duration="100" />
+    <item android:drawable="@drawable/hm13" android:duration="100" />
+    <item android:drawable="@drawable/hm14" android:duration="100" />
+    <item android:drawable="@drawable/hm15" android:duration="100" />
+    <item android:drawable="@drawable/hm16" android:duration="100" />
+    <item android:drawable="@drawable/hm17" android:duration="100" />
+    <item android:drawable="@drawable/hm18" android:duration="100" />
+    <item android:drawable="@drawable/hm19" android:duration="100" />
+    <item android:drawable="@drawable/hm20" android:duration="100" />
+    <item android:drawable="@drawable/hm21" android:duration="100" />
+    <item android:drawable="@drawable/hm22" android:duration="100" />
+    <item android:drawable="@drawable/hm23" android:duration="100" />
+    <item android:drawable="@drawable/hm24" android:duration="100" />
+    <item android:drawable="@drawable/hm25" android:duration="100" />
+    <item android:drawable="@drawable/hm26" android:duration="100" />
+    <item android:drawable="@drawable/hm27" android:duration="100" />
+    <item android:drawable="@drawable/hm28" android:duration="100" />
+    <item android:drawable="@drawable/hm29" android:duration="100" />
+    <item android:drawable="@drawable/hm30" android:duration="100" />
+    <item android:drawable="@drawable/hm31" android:duration="100" />
+    <item android:drawable="@drawable/hm32" android:duration="100" />
+    <item android:drawable="@drawable/hm33" android:duration="100" />
+    <item android:drawable="@drawable/hm34" android:duration="100" />
+    <item android:drawable="@drawable/hm35" android:duration="100" />
+    <item android:drawable="@drawable/hm36" android:duration="100" />
+    <item android:drawable="@drawable/hm37" android:duration="100" />
+    <item android:drawable="@drawable/hm38" android:duration="100" />
+    <item android:drawable="@drawable/hm39" android:duration="100" />
+    <item android:drawable="@drawable/hm40" android:duration="100" />
+    <item android:drawable="@drawable/hm41" android:duration="100" />
+    <item android:drawable="@drawable/hm42" android:duration="100" />
+
+</animation-list>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubclassSelectionActivity">
+
+    <ImageView
+        android:id="@+id/monitor_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/loading_word_host"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/center"
+        android:layout_width="0.00001dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/subclass1_bg"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#009DC7"/>
+
+    <ImageView
+        android:id="@+id/subclass2_bg"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:background="#009DC7"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subclass1_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="MECH"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@id/character_host"
+        app:layout_constraintStart_toStartOf="@id/character_host"
+        app:layout_constraintTop_toTopOf="@id/character_host" />
+
+    <TextView
+        android:id="@+id/subclass2_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="MECH"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@id/subclass2_host"
+        app:layout_constraintStart_toStartOf="@id/subclass2_host"
+        app:layout_constraintTop_toTopOf="@id/subclass2_host" />
+
+    <ImageView
+        android:id="@+id/character_host"
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/center"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <ImageView
+        android:id="@+id/subclass2_host"
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/center"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eight_bit"
+        android:text="SELECT A SUBCLASS"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@id/character_host"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/subclass1_inv"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/center"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/subclass2_inv"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/center"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

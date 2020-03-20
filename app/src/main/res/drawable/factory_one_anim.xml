@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/factory_one1" android:duration="50" />
+    <item android:drawable="@drawable/factory_one2" android:duration="50" />
+    <item android:drawable="@drawable/factory_one3" android:duration="50" />
+    <item android:drawable="@drawable/factory_one4" android:duration="50" />
+    <item android:drawable="@drawable/factory_one5" android:duration="50" />
+    <item android:drawable="@drawable/factory_one6" android:duration="50" />
+    <item android:drawable="@drawable/factory_one7" android:duration="50" />
+    <item android:drawable="@drawable/factory_one8" android:duration="50" />
+    <item android:drawable="@drawable/factory_one9" android:duration="75" />
+    <item android:drawable="@drawable/factory_one10" android:duration="75" />
+    <item android:drawable="@drawable/factory_one11" android:duration="75" />
+    <item android:drawable="@drawable/factory_one12" android:duration="75" />
+    <item android:drawable="@drawable/factory_one13" android:duration="75" />
+    <item android:drawable="@drawable/factory_one14" android:duration="75" />
+    <item android:drawable="@drawable/factory_one15" android:duration="75" />
+    <item android:drawable="@drawable/factory_one16" android:duration="75" />
+    <item android:drawable="@drawable/factory_one17" android:duration="75" />
+    <item android:drawable="@drawable/factory_one18" android:duration="75" />
+    <item android:drawable="@drawable/factory_one19" android:duration="75" />
+    <item android:drawable="@drawable/factory_one20" android:duration="75" />
+    <item android:drawable="@drawable/factory_one21" android:duration="125" />
+    <item android:drawable="@drawable/factory_one22" android:duration="125" />
+    <item android:drawable="@drawable/factory_one23" android:duration="125" />
+    <item android:drawable="@drawable/factory_one24" android:duration="125" />
+    <item android:drawable="@drawable/factory_one25" android:duration="125" />
+    <item android:drawable="@drawable/factory_one26" android:duration="125" />
+    <item android:drawable="@drawable/factory_one27" android:duration="125" />
+    <item android:drawable="@drawable/factory_one28" android:duration="125" />
+
+
+
+</animation-list>

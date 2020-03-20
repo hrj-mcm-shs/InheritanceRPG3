@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultsActivity">
+
+    <ImageView
+        android:id="@+id/monitor_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/loading_word_host"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/character_host"
+        android:layout_width="180dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/level_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="LV. "
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/health_label"
+        app:layout_constraintTop_toTopOf="@+id/character_host" />
+
+    <TextView
+        android:id="@+id/level_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="✔"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/input_level"
+        app:layout_constraintStart_toEndOf="@+id/input_level"
+        app:layout_constraintTop_toTopOf="@+id/input_level" />
+
+    <TextView
+        android:id="@+id/health_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="HEALTH"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stat_heart"
+        app:layout_constraintStart_toEndOf="@+id/stat_heart"
+        app:layout_constraintTop_toTopOf="@+id/stat_heart" />
+
+    <TextView
+        android:id="@+id/health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT1"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stat_heart"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toTopOf="@+id/stat_heart"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/health_regen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/health_regen_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toTopOf="@+id/health_regen_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/fuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT3"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fuel_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toTopOf="@+id/fuel_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/fuel_charge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT4"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fuel_charge_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toTopOf="@+id/fuel_charge_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/electrical_amp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT5"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/electrical_amp_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toTopOf="@+id/electrical_amp_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/cooldown_reduc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT6"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cooldown_reduc_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toBottomOf="@+id/electrical_amp_label2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/physical_damage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT7"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/physical_damage_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toTopOf="@+id/physical_damage_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/attack_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT8"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/attack_interval_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toTopOf="@+id/attack_interval_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/critical_chance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT9"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/critical_chance_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toTopOf="@+id/critical_chance_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/movement_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="STAT10"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/movement_speed_label"
+        app:layout_constraintEnd_toEndOf="@+id/subclass"
+        app:layout_constraintTop_toBottomOf="@+id/critical_chance_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/fuel_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="FUEL"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stat_fuel"
+        app:layout_constraintStart_toEndOf="@+id/stat_fuel"
+        app:layout_constraintTop_toTopOf="@+id/stat_fuel" />
+
+    <TextView
+        android:id="@+id/electrical_amp_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="ELECTRICAL AMP"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stat_energy"
+        app:layout_constraintStart_toEndOf="@+id/stat_energy"
+        app:layout_constraintTop_toTopOf="@+id/stat_energy" />
+
+    <TextView
+        android:id="@+id/cooldown_reduc_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="COOLDOWN REDUCTION"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/stat_energy"
+        app:layout_constraintTop_toBottomOf="@+id/electrical_amp_label" />
+
+    <TextView
+        android:id="@+id/physical_damage_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="PHYSICAL DAMAGE"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stat_physical"
+        app:layout_constraintStart_toEndOf="@+id/stat_physical"
+        app:layout_constraintTop_toTopOf="@+id/stat_physical" />
+
+    <TextView
+        android:id="@+id/attack_interval_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="ATTACK INTERVAL"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/stat_physical"
+        app:layout_constraintTop_toBottomOf="@+id/physical_damage_label" />
+
+    <TextView
+        android:id="@+id/critical_chance_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="CRITICAL CHANCE"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/stat_physical"
+        app:layout_constraintTop_toBottomOf="@+id/attack_interval_label" />
+
+    <TextView
+        android:id="@+id/movement_speed_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="MOVEMENT SPEED"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/stat_physical"
+        app:layout_constraintTop_toBottomOf="@+id/critical_chance_label" />
+
+    <TextView
+        android:id="@+id/fuel_charge_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="FUEL CHARGE"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/stat_fuel"
+        app:layout_constraintTop_toBottomOf="@+id/fuel_label" />
+
+    <TextView
+        android:id="@+id/health_regen_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="HEALTH REGEN"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/stat_heart"
+        app:layout_constraintTop_toBottomOf="@+id/health_label" />
+
+    <TextView
+        android:id="@+id/health_regen_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="/sec"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/health_regen_label"
+        app:layout_constraintStart_toEndOf="@+id/health_regen_label" />
+
+    <TextView
+        android:id="@+id/fuel_charge_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="/sec"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fuel_charge_label"
+        app:layout_constraintStart_toEndOf="@+id/fuel_charge_label" />
+
+    <TextView
+        android:id="@+id/electrical_amp_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="%"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/electrical_amp_label"
+        app:layout_constraintStart_toEndOf="@+id/electrical_amp_label" />
+
+    <TextView
+        android:id="@+id/cooldown_reduc_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="%"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cooldown_reduc_label"
+        app:layout_constraintStart_toEndOf="@+id/cooldown_reduc_label" />
+
+    <TextView
+        android:id="@+id/critical_chance_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="%"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/critical_chance_label"
+        app:layout_constraintStart_toEndOf="@+id/critical_chance_label" />
+
+    <EditText
+        android:id="@+id/input_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:ems="1"
+        android:fontFamily="@font/retro_gaming"
+        android:inputType="number"
+        android:text="1"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level_label"
+        app:layout_constraintStart_toEndOf="@+id/level_label"
+        app:layout_constraintTop_toTopOf="@+id/level_label" />
+
+    <TextView
+        android:id="@+id/subclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/retro_gaming"
+        android:text="SUBCLASS"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/character_host" />
+
+    <ImageView
+        android:id="@+id/stat_heart"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toEndOf="@+id/character_host"
+        app:layout_constraintTop_toBottomOf="@+id/level_label"
+        app:srcCompat="@drawable/stat_health" />
+
+    <ImageView
+        android:id="@+id/stat_fuel"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toEndOf="@+id/character_host"
+        app:layout_constraintTop_toBottomOf="@+id/health_regen_label"
+        app:srcCompat="@drawable/stat_fuel" />
+
+    <ImageView
+        android:id="@+id/stat_energy"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toEndOf="@+id/character_host"
+        app:layout_constraintTop_toBottomOf="@+id/fuel_charge_label"
+        app:srcCompat="@drawable/stat_energy" />
+
+    <ImageView
+        android:id="@+id/stat_physical"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toEndOf="@+id/character_host"
+        app:layout_constraintTop_toBottomOf="@+id/cooldown_reduc_label"
+        app:srcCompat="@drawable/stat_physical" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

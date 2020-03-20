@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/fm1" android:duration="100" />
+    <item android:drawable="@drawable/fm2" android:duration="100" />
+    <item android:drawable="@drawable/fm3" android:duration="100" />
+    <item android:drawable="@drawable/fm4" android:duration="100" />
+    <item android:drawable="@drawable/fm5" android:duration="100" />
+    <item android:drawable="@drawable/fm6" android:duration="100" />
+    <item android:drawable="@drawable/fm7" android:duration="100" />
+    <item android:drawable="@drawable/fm8" android:duration="100" />
+    <item android:drawable="@drawable/fm9" android:duration="100" />
+    <item android:drawable="@drawable/fm10" android:duration="100" />
+    <item android:drawable="@drawable/fm11" android:duration="100" />
+    <item android:drawable="@drawable/fm12" android:duration="100" />
+    <item android:drawable="@drawable/fm13" android:duration="100" />
+    <item android:drawable="@drawable/fm14" android:duration="100" />
+    <item android:drawable="@drawable/fm15" android:duration="100" />
+    <item android:drawable="@drawable/fm16" android:duration="100" />
+    <item android:drawable="@drawable/fm17" android:duration="100" />
+    <item android:drawable="@drawable/fm18" android:duration="100" />
+    <item android:drawable="@drawable/fm19" android:duration="100" />
+    <item android:drawable="@drawable/fm20" android:duration="100" />
+    <item android:drawable="@drawable/fm21" android:duration="100" />
+    <item android:drawable="@drawable/fm22" android:duration="100" />
+    <item android:drawable="@drawable/fm23" android:duration="100" />
+    <item android:drawable="@drawable/fm24" android:duration="100" />
+    <item android:drawable="@drawable/fm25" android:duration="100" />
+    <item android:drawable="@drawable/fm26" android:duration="100" />
+    <item android:drawable="@drawable/fm27" android:duration="100" />
+    <item android:drawable="@drawable/fm28" android:duration="100" />
+    <item android:drawable="@drawable/fm29" android:duration="100" />
+    <item android:drawable="@drawable/fm30" android:duration="100" />
+    <item android:drawable="@drawable/fm31" android:duration="100" />
+    <item android:drawable="@drawable/fm32" android:duration="100" />
+    <item android:drawable="@drawable/fm33" android:duration="100" />
+    <item android:drawable="@drawable/fm34" android:duration="100" />
+    <item android:drawable="@drawable/fm35" android:duration="100" />
+    <item android:drawable="@drawable/fm36" android:duration="100" />
+    <item android:drawable="@drawable/fm37" android:duration="100" />
+    <item android:drawable="@drawable/fm38" android:duration="100" />
+    <item android:drawable="@drawable/fm39" android:duration="100" />
+    <item android:drawable="@drawable/fm40" android:duration="100" />
+    <item android:drawable="@drawable/fm41" android:duration="100" />
+    <item android:drawable="@drawable/fm42" android:duration="100" />
+    <item android:drawable="@drawable/fm43" android:duration="100" />
+    <item android:drawable="@drawable/fm44" android:duration="100" />
+    <item android:drawable="@drawable/fm44" android:duration="100" />
+    <item android:drawable="@drawable/fm45" android:duration="100" />
+    <item android:drawable="@drawable/fm46" android:duration="100" />
+    <item android:drawable="@drawable/fm47" android:duration="100" />
+    <item android:drawable="@drawable/fm48" android:duration="100" />
+    <item android:drawable="@drawable/fm49" android:duration="100" />
+    <item android:drawable="@drawable/fm50" android:duration="100" />
+    <item android:drawable="@drawable/fm51" android:duration="100" />
+    <item android:drawable="@drawable/fm52" android:duration="100" />
+    <item android:drawable="@drawable/fm53" android:duration="100" />
+    <item android:drawable="@drawable/fm54" android:duration="100" />
+
+</animation-list>

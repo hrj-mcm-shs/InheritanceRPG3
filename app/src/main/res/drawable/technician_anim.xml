@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/t1" android:duration="200" />
+    <item android:drawable="@drawable/t2" android:duration="100" />
+    <item android:drawable="@drawable/t3" android:duration="100" />
+    <item android:drawable="@drawable/t4" android:duration="100" />
+    <item android:drawable="@drawable/t5" android:duration="100" />
+    <item android:drawable="@drawable/t6" android:duration="100" />
+    <item android:drawable="@drawable/t7" android:duration="100" />
+    <item android:drawable="@drawable/t8" android:duration="100" />
+    <item android:drawable="@drawable/t9" android:duration="100" />
+    <item android:drawable="@drawable/t10" android:duration="100" />
+    <item android:drawable="@drawable/t11" android:duration="100" />
+    <item android:drawable="@drawable/t12" android:duration="100" />
+    <item android:drawable="@drawable/t13" android:duration="100" />
+    <item android:drawable="@drawable/t14" android:duration="100" />
+    <item android:drawable="@drawable/t15" android:duration="100" />
+    <item android:drawable="@drawable/t16" android:duration="100" />
+    <item android:drawable="@drawable/t17" android:duration="100" />
+    <item android:drawable="@drawable/t18" android:duration="100" />
+    <item android:drawable="@drawable/t19" android:duration="100" />
+    <item android:drawable="@drawable/t20" android:duration="100" />
+    <item android:drawable="@drawable/t21" android:duration="100" />
+    <item android:drawable="@drawable/t22" android:duration="100" />
+    <item android:drawable="@drawable/t23" android:duration="100" />
+    <item android:drawable="@drawable/t24" android:duration="100" />
+    <item android:drawable="@drawable/t25" android:duration="100" />
+    <item android:drawable="@drawable/t26" android:duration="100" />
+    <item android:drawable="@drawable/t27" android:duration="100" />
+    <item android:drawable="@drawable/t28" android:duration="100" />
+    <item android:drawable="@drawable/t29" android:duration="100" />
+    <item android:drawable="@drawable/t30" android:duration="100" />
+    <item android:drawable="@drawable/t31" android:duration="100" />
+    <item android:drawable="@drawable/t32" android:duration="100" />
+    <item android:drawable="@drawable/t33" android:duration="100" />
+    <item android:drawable="@drawable/t34" android:duration="100" />
+    <item android:drawable="@drawable/t35" android:duration="100" />
+    <item android:drawable="@drawable/t36" android:duration="100" />
+    <item android:drawable="@drawable/t37" android:duration="100" />
+    <item android:drawable="@drawable/t38" android:duration="100" />
+    <item android:drawable="@drawable/t39" android:duration="100" />
+</animation-list>

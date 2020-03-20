@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/factory_two1" android:duration="150" />
+    <item android:drawable="@drawable/factory_two2" android:duration="150" />
+    <item android:drawable="@drawable/factory_two3" android:duration="150" />
+    <item android:drawable="@drawable/factory_two4" android:duration="150" />
+    <item android:drawable="@drawable/factory_two5" android:duration="150" />
+    <item android:drawable="@drawable/factory_two6" android:duration="150" />
+    <item android:drawable="@drawable/factory_two7" android:duration="150" />
+    <item android:drawable="@drawable/factory_two8" android:duration="150" />
+    <item android:drawable="@drawable/factory_two9" android:duration="150" />
+    <item android:drawable="@drawable/factory_two10" android:duration="150" />
+    <item android:drawable="@drawable/factory_two11" android:duration="150" />
+    <item android:drawable="@drawable/factory_two12" android:duration="150" />
+
+
+
+</animation-list>

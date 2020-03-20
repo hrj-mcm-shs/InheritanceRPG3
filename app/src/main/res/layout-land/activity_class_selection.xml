@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".ClassSelectionActivity"
+    android:fillViewport="true">
+
+    <ImageView
+        android:id="@+id/monitor_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/loading_word_host"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/alien_bg"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#009DC7"/>
+
+    <ImageView
+        android:id="@+id/alienvoy_bg"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/aliender"
+        app:layout_constraintStart_toEndOf="@+id/alien"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#009DC7"/>
+
+    <ImageView
+        android:id="@+id/aliender_bg"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:background="#009DC7"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/droidan_bg"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/droider"
+        app:layout_constraintStart_toEndOf="@+id/aliender"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#009DC7"/>
+
+    <ImageView
+        android:id="@+id/droider_bg"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#009DC7"/>
+
+    <TextView
+        android:id="@+id/alien_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="MECH"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@id/alien"
+        app:layout_constraintStart_toStartOf="@id/alien"
+        app:layout_constraintTop_toTopOf="@id/alien" />
+
+    <TextView
+    android:id="@+id/alienvoy_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/retro_gaming"
+    android:text="TECHNICIAN"
+    android:textSize="12dp"
+    app:layout_constraintEnd_toEndOf="@id/alienvoy"
+    app:layout_constraintStart_toStartOf="@id/alienvoy"
+    app:layout_constraintTop_toTopOf="@id/alienvoy" />
+
+    <TextView
+    android:id="@+id/aliender_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/retro_gaming"
+    android:text="ANDROID"
+    android:textSize="12dp"
+    app:layout_constraintEnd_toEndOf="@id/aliender"
+    app:layout_constraintStart_toStartOf="@id/aliender"
+    app:layout_constraintTop_toTopOf="@id/aliender" />
+
+    <TextView
+        android:id="@+id/droidan_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="ENGINEER"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@id/droidan"
+        app:layout_constraintStart_toStartOf="@id/droidan"
+        app:layout_constraintTop_toTopOf="@id/droidan" />
+
+    <TextView
+        android:id="@+id/droider_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/retro_gaming"
+        android:text="MERCENARY"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@id/droider"
+        app:layout_constraintStart_toStartOf="@id/droider"
+        app:layout_constraintTop_toTopOf="@id/droider" />
+
+    <ImageView
+        android:id="@+id/alien"
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/aliender"
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/alienvoy"
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/aliender"
+        app:layout_constraintStart_toEndOf="@+id/alien"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/droidan"
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/droider"
+        app:layout_constraintStart_toEndOf="@+id/aliender"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/droider"
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eight_bit"
+        android:text="SELECT A CLASS"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@id/aliender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_inv"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="24dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/alienvoy_inv"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/aliender"
+        app:layout_constraintStart_toEndOf="@+id/alien"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/aliender_inv"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/droidan_inv"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/droider"
+        app:layout_constraintStart_toEndOf="@+id/aliender"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/droider_inv"
+        android:layout_width="140dp"
+        android:layout_height="260dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
